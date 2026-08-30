@@ -1,0 +1,13 @@
+.bashrc
+.cache/
+.claude/
+.config/
+.dbclient/
+.gitconfig
+.local/
+.npm/
+.ssh/
+.voc/
+.env
+test.py
+Week 5_Graded Mini Project Documents.zip
