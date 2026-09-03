@@ -71,7 +71,7 @@ mp1/
 
    ```python
    client = AsyncOpenAI(
-      api_key=os.environment.get('OPENAI_API_KEY','<your OpenAI API Key>'),
+      api_key=os.environ.get('OPENAI_API_KEY','<your OpenAI API Key>'),
       base_url='https://openai.vocareum.com/v1'
    )
    ```
