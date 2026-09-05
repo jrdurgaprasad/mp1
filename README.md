@@ -65,9 +65,11 @@ mp1/
 
    Alternatively, open the notebook in VS Code or vocareum and select the environment created above as the kernel.
 
-5. Copy the folder 'data/' containing job_snippets.jsonl and golden_set.json. 
+5. Copy the folder 'data/' containing job_snippets.jsonl and golden_set.jsonl from https://classroom.emeritus.org by following below steps:
+   Select Modules --> Week 5: Graded Mini Project --> under Submission Guidelines section --> click on '**Week 5_Graded Mini Project Documents**' to download.
+   Unzip the downloaded folder and traverse through Week 5_Graded Mini Project 'Documents.zip\AI-RAG_MP1_PromptLab\MP1_PromptLab\data directory' to get above .jsonl files.
 
-6. The print statement in the notebook mp1_prompt_lab.ipynb cell 2 is not printing OPENAI_API_KEY, replace your OpenAI API KEY in following python statement and copy and paste in the cell 3 line 1.
+7. The print statement in the notebook mp1_prompt_lab.ipynb cell 2 is not printing OPENAI_API_KEY, replace your OpenAI API KEY in following python statement and copy and paste in the cell 3 line 1.
 
    ```python
    client = AsyncOpenAI(
