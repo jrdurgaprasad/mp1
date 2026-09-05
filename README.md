@@ -75,8 +75,13 @@ mp1/
       base_url='https://openai.vocareum.com/v1'
    )
    ```
-   Also, in the cell 4 change the path mentioned in the first line while assigning 'data/' path to DIR_PATH varaible accordingly based on the 'data/' directory path.
+   Also, in the cell 4 change the path mentioned in the first line while assigning 'data/' path to DIR_PATH varaible accordingly based on the 'data/' directory local path.
+   ```python
+   DATA_DIR = Path('./data')
+   # OR
+   DATA_DIR = Path('../data') 
+   ```
    
    #### Note: This helps us to run the same code in local code editors like VS Code etc with same enviornment configuration mention in steps 1 - 5.
 
-7. Run the notebook cells in order from top to bottom.
+8. Run the notebook cells from top to bottom either one after another or all at once.
