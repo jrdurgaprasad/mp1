@@ -9,4 +9,5 @@
 .ssh/
 .voc/
 .env
+data/
 test.py
