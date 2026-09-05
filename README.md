@@ -66,17 +66,11 @@ mp1/
    Alternatively, open the notebook in VS Code or vocareum and select the environment created above as the kernel.
 
 5. Copy the folder 'data/' containing job_snippets.jsonl and golden_set.jsonl from https://classroom.emeritus.org by following below steps:
-<<<<<<< HEAD
 
    * Select Modules --> Week 5: Graded Mini Project --> under Submission Guidelines section --> click on '**Week 5_Graded Mini Project Documents**' to download.
    
    * Unzip the downloaded folder and traverse through Week 5_Graded Mini Project 'Documents.zip\AI-RAG_MP1_PromptLab\MP1_PromptLab\data directory' to get above .jsonl files.
 
-=======
-   Select Modules --> Week 5: Graded Mini Project --> under Submission Guidelines section --> click on '**Week 5_Graded Mini Project Documents**' to download.
-   Unzip the downloaded folder and traverse through Week 5_Graded Mini Project 'Documents.zip\AI-RAG_MP1_PromptLab\MP1_PromptLab\data directory' to get above .jsonl files.
-
->>>>>>> 5f2c888e5d958b59bd1ea760dfb2b5330cff8c80
 7. The print statement in the notebook mp1_prompt_lab.ipynb cell 2 is not printing OPENAI_API_KEY, replace your OpenAI API KEY in following python statement and copy and paste in the cell 3 line 1.
 
    ```python
@@ -95,9 +89,6 @@ mp1/
    #### Note: This helps us to run the same code in local code editors like VS Code etc with same enviornment configuration mention in steps 1 - 5.
 
 8. Run the notebook cells from top to bottom either one after another or all at once.
-<<<<<<< HEAD
 
 9. The comparison of all the strategies LLM response with judge LLM response has generated in **Step 5** as table with different metrics as mentioned the **Week_5_Graded Mini Project.docx** file. And, the same has been updated in **mp1_comparision.md** file.
 10. The **mp1_writeup.md** file created with the mandatory questions given in **Week_5_Graded Mini Project.docx** file and aswered with my analysis based on the results achieved.
-=======
->>>>>>> 5f2c888e5d958b59bd1ea760dfb2b5330cff8c80
