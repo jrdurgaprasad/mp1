@@ -65,9 +65,13 @@ mp1/
 
    Alternatively, open the notebook in VS Code or vocareum and select the environment created above as the kernel.
 
-5. Copy the folder 'data/' containing job_snippets.jsonl and golden_set.json. 
+5. Copy the folder 'data/' containing job_snippets.jsonl and golden_set.jsonl from https://classroom.emeritus.org by following below steps:
 
-6. The print statement in the notebook mp1_prompt_lab.ipynb cell 2 is not printing OPENAI_API_KEY, replace your OpenAI API KEY in following python statement and copy and paste in the cell 3 line 1.
+   * Select Modules --> Week 5: Graded Mini Project --> under Submission Guidelines section --> click on '**Week 5_Graded Mini Project Documents**' to download.
+   
+   * Unzip the downloaded folder and traverse through Week 5_Graded Mini Project 'Documents.zip\AI-RAG_MP1_PromptLab\MP1_PromptLab\data directory' to get above .jsonl files.
+
+7. The print statement in the notebook mp1_prompt_lab.ipynb cell 2 is not printing OPENAI_API_KEY, replace your OpenAI API KEY in following python statement and copy and paste in the cell 3 line 1.
 
    ```python
    client = AsyncOpenAI(
@@ -75,8 +79,16 @@ mp1/
       base_url='https://openai.vocareum.com/v1'
    )
    ```
-   Also, in the cell 4 change the path mentioned in the first line while assigning 'data/' path to DIR_PATH varaible accordingly based on the 'data/' directory path.
+   Also, in the cell 4 change the path mentioned in the first line while assigning 'data/' path to DIR_PATH varaible accordingly based on the 'data/' directory local path.
+   ```python
+   DATA_DIR = Path('./data')
+   # OR
+   DATA_DIR = Path('../data') 
+   ```
    
    #### Note: This helps us to run the same code in local code editors like VS Code etc with same enviornment configuration mention in steps 1 - 5.
 
-7. Run the notebook cells in order from top to bottom.
+8. Run the notebook cells from top to bottom either one after another or all at once.
+
+9. The comparison of all the strategies LLM response with judge LLM response has generated in **Step 5** as table with different metrics as mentioned the **Week_5_Graded Mini Project.docx** file. And, the same has been updated in **mp1_comparision.md** file.
+10. The **mp1_writeup.md** file created with the mandatory questions given in **Week_5_Graded Mini Project.docx** file and aswered with my analysis based on the results achieved.
